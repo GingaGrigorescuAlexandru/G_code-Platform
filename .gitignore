@@ -1,0 +1,18 @@
+# Ignore Python cache and virtual environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Ignore environment and configuration files
+.env
+*.env
+*.env.*
+
+# Ignore database and secret files
+db.sqlite3
+*.log
+
+# Ignore Node.js modules (if using React)
+node_modules/
+build/
