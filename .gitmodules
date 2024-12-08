@@ -1,0 +1,6 @@
+[submodule "G_code-Frontend"]
+	path = G_code-Frontend
+	url = https://github.com/GingaGrigorescuAlexandru/G_code-Frontend
+[submodule "G_code-Backend"]
+	path = G_code-Backend
+	url = https://github.com/GingaGrigorescuAlexandru/G_code-Backend
