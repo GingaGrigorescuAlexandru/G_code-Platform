@@ -10,5 +10,6 @@ urlpatterns = [
     path('', include(router.urls)),
     path('user/', admin.site.urls),
 
-    path('ai_response/', views.openai_response, name = 'ai_response')
+    path('ai_response/', views.openai_response, name = 'ai_response'),
+    path('register/', views.register, name = 'register')
 ]
